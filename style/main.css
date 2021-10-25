@@ -6,7 +6,6 @@
 }
 
 :root {
-  --vermelho: #E50914;
   --preto: #141414;
 }
 
@@ -21,14 +20,17 @@ header .container {
   align-items: center;
   justify-content: space-between;
   margin-right: 5px;
+  background: transparent;
+  position: absolute;
+  width: 100%;
 }
 
-header .logotipo {
-  color: var(--vermelho);
-  font-family: 'Arial Black';
-  font-size: 40px;
-  margin-left: 5px;
-}
+img.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+}  
 
 header nav a {
   text-decoration: none;
@@ -56,6 +58,7 @@ header nav a:hover{
 .filme-principal .descricao {
   margin-bottom: 40px;
   margin-top: 10px;
+  line-height: 20px;
 }
 
 .titulo {
@@ -79,6 +82,16 @@ header nav a:hover{
   color: #000000;
 }
 
+.botao:nth-child(1){
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.botao:nth-child(1):hover {
+  background-color: rgba(0, 0, 0,.50);
+  color: #FFFFFF;
+}
+
 .botao i{
   margin-right: 8px;
 }
@@ -95,8 +108,4 @@ main .container {
   height: 100%;
   width: 100%;
   display: block;
-}
-
-.carrossel-filmes {
-  margin-top: 5px; 
 }

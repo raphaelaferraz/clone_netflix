@@ -18,9 +18,9 @@
 <body>
   <header>
     <div class="container">
-      <h2 class="logotipo">NETFLIX</h2>
+        <img class="logo"src="img/logo-netflix.svg" alt="Logotipo da Netflix">
       <nav>
-        <a href="#">Início</a>
+        <a href="#inicio">Início</a>
         <a href="#">Séries</a>
         <a href="#">Filmes</a>
         <a href="#">Documentários</a>
@@ -28,15 +28,15 @@
     </div>
   </header>
 
-  <main>
+  <main id="inicio">
     <div class="filme-principal">
       <div class="container">
         <h3 class="titulo">Ponto Cego</h3>
         <p class="descricao">Misteriosa mulher é encontrada na Times Square, sem quaisquer lembranças de quem ela é e de como chegou ali. As únicas pistas que ela possui são as tatuagens que cobrem todo o seu corpo. Um agente do FBI passa a ajudá-la enquanto buscam a verdade.</p>
       
         <div class="botoes">
-          <button role="button" class="botao"><i class="fas fa-play"></i>Assistir agora</button>
-          <button class="botao"><i class="fas fa-info-circle"></i>Mais informações</button>
+          <button onclick="window.location.href = 'https://www.netflix.com/search?q=ponto%20cego&jbv=80058486';" role="button" class="botao"><i class="fas fa-play"></i>Assistir agora</button>
+          <button role="button" class="botao"><i class="fas fa-info-circle"></i>Mais informações</button>
         </div>
 
       </div>
@@ -46,43 +46,63 @@
   <div class="carrossel-filmes">
     <div class="owl-carousel owl-theme"> 
       <div class="item">
-        <img class="box-filme" src="img/mulher-maravilha.jpg" alt="Capa do filme Mulher Maravilha">
+        <a href="https://www.youtube.com/watch?v=tqfOtQ5auBA" target="_blank">
+          <img class="box-filme" src="img/mulher-maravilha.jpg" alt="Capa do filme Mulher Maravilha">
+        </a>
       </div>
 
       <div class="item">
-        <img class="box-filme" src="img/poster-missao2.jpg" alt="Capa do filme Mulher Maravilha">
+        <a href="https://www.netflix.com/search?q=miss%C3%A3o%20imposs%C3%ADvel&jbv=60000521" target="_blank">
+          <img class="box-filme" src="img/poster-missao2.jpg" alt="Capa do filme Mulher Maravilha">
+        </a>
       </div>
 
       <div class="item">
-        <img class="box-filme" src="img/poster-o_menino-de-pijama.jpg" alt="Capa do filme O menino do Pijama Listrado">
+        <a href="https://www.telecine.com.br/search?term=o%20menino%20do%20pijama%20listrado" target="_blank">
+          <img class="box-filme" src="img/poster-o_menino-de-pijama.jpg" alt="Capa do filme O menino do Pijama Listrado">
+        </a>
       </div>
 
       <div class="item">
-        <img class="box-filme" src="img/poster-titans.jpg" alt="Capa da série Titans">
+        <a href="https://www.netflix.com/search?q=titans&jbv=80218200" target="_blank">
+          <img class="box-filme" src="img/poster-titans.jpg" alt="Capa da série Titans">
+        </a>
       </div>
 
       <div class="item">
-        <img class="box-filme" src="img/poster-peaky-blinders.jpg" alt="Capa da série Pwaky Blinders">
+        <a href="https://www.netflix.com/search?q=peaky&jbv=80002479" target="_blank">
+          <img class="box-filme" src="img/poster-peaky-blinders.jpg" alt="Capa da série Pwaky Blinders">
+        </a>
       </div>
 
       <div class="item">
-        <img class="box-filme" src="img/poster-bridgerton.jpg" alt="Capa da série Bridgerton">
+        <a href="https://www.netflix.com/search?q=bridgerton&jbv=80232398" target="_blank">  
+          <img class="box-filme" src="img/poster-bridgerton.jpg" alt="Capa da série Bridgerton">
+        </a>
       </div>
 
       <div class="item">
-        <img class="box-filme" src="img/poster-ricky-morty.jpg" alt="Capa da série Ricky e Morty">
+        <a href="https://www.netflix.com/search?q=ric&jbv=80014749" target="_blank">
+          <img class="box-filme" src="img/poster-ricky-morty.jpg" alt="Capa da série Ricky e Morty">
+        </a>
       </div>
 
       <div class="item">
-        <img class="box-filme" src="img/poster-round6.jpg" alt="Capa da série Round 6">
+        <a href="https://www.netflix.com/search?q=round%206&jbv=81040344" target="_blank">
+          <img class="box-filme" src="img/poster-round6.jpg" alt="Capa da série Round 6">
+        </a>
       </div>
 
       <div class="item">
-        <img class="box-filme" src="img/poster-lucifer.jpg" alt="Capa da série Lúcifer">
+        <a href="https://www.netflix.com/search?q=lucifer&jbv=80057918/" target="_blank">
+          <img class="box-filme" src="img/poster-lucifer.jpg" alt="Capa da série Lúcifer">
+        </a>
       </div>
 
       <div class="item">
-        <img class="box-filme" src="img/poster-greys.jpg" alt="Capa da série Greys Anatomy">
+        <a href="https://www.netflix.com/search?q=greys&jbv=70140391" target="_blank">
+          <img class="box-filme" src="img/poster-greys.jpg" alt="Capa da série Greys Anatomy">
+        </a>
       </div>
     </div>
   </div>
