@@ -41,8 +41,7 @@ header nav a:hover{
 }
 
 
-/*  Filme principal */
-
+/*  Parte de filme principal */
 .filme-principal {
   font-size: 16px;
   background: linear-gradient(rgba(0, 0, 0,.50), rgba(0, 0, 0,.50)100%), url("/img/capa-ponto-cego.jpg");
@@ -82,4 +81,12 @@ header nav a:hover{
 
 .botao i{
   margin-right: 8px;
+}
+
+main .container {
+  margin-left: 30px; ;
+}
+
+.filme-principal .container {
+  width: 50%;
 }
