@@ -1,4 +1,37 @@
-@media screen and (max-width: 700px){
+@media screen and (max-width: 640px){
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .filme-principal {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .filme-principal .titulo {
+    margin-top: 25%;
+  }
+
+  .owl-carousel{
+    margin-top: 1%;
+  }
+
+  .filme-principal .container {
+    width: auto;
+  }
+
+  .botoes {
+    display: flex;
+  }
+
+  .botao {
+    padding: 10px 15px;
+  }
+}
+
+@media screen and (min-width: 642px) and (max-width: 700px){
   header .container {
     display: flex;
     flex-direction: column;
