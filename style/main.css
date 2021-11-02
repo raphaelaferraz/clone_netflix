@@ -53,6 +53,7 @@ header nav a:hover{
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  margin-bottom: .1rem;
 }
 
 .filme-principal .descricao {
