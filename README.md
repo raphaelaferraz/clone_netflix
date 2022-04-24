@@ -16,7 +16,7 @@
 
 <h1 align="center"> 
   <img src="https://img.shields.io/static/v1?label=linguagem&message=HTML&color=yellow&style=flat&logo=HTML"/>
-  <img src="https://img.shields.io/static/v1?label=Film&message=Clone da Netflix&color=red&style=flat&logo=ghost"/>
+  <img src="https://img.shields.io/static/v1?label=🎬&message=Clone da Netflix&color=red&style=flat&logo=ghost"/>
 </h1>
 </br></br>
 
